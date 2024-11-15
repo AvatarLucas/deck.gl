@@ -68,7 +68,7 @@ function getTooltip({object}: PickingInfo) {
   return `\
     latitude: ${Number.isFinite(lat) ? lat.toFixed(6) : ''}
     longitude: ${Number.isFinite(lng) ? lng.toFixed(6) : ''}
-    ${count} Accidents`;
+    ${count} Burials`;
 }
 
 type DataPoint = [longitude: number, latitude: number];
